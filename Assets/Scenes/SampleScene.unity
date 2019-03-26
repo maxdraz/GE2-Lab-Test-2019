@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -823,7 +823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseColour: {r: 0, g: 0, b: 0, a: 0}
   tiberium: 5
+  tiberiumCooldown: 1
   text: {fileID: 197494989}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1367,7 +1369,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseColour: {r: 0, g: 0, b: 0, a: 0}
   tiberium: 5
+  tiberiumCooldown: 1
   text: {fileID: 632246730}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1566,7 +1570,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseColour: {r: 0, g: 0, b: 0, a: 0}
   tiberium: 5
+  tiberiumCooldown: 1
   text: {fileID: 782841948}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1619,7 +1625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseColour: {r: 0, g: 0, b: 0, a: 0}
   tiberium: 5
+  tiberiumCooldown: 1
   text: {fileID: 862900976}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}

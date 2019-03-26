@@ -9,7 +9,7 @@ public class Arrive: SteeringBehaviour
     public Vector3 targetPosition = Vector3.zero;
     public float slowingDistance = 15.0f;
 
-    public GameObject targetGameObject = null;
+    //public GameObject targetGameObject = null;
         
     public override Vector3 Calculate()
     {
@@ -18,9 +18,9 @@ public class Arrive: SteeringBehaviour
 
     public void Update()
     {
-        if (targetGameObject != null)
-        {
-            targetPosition = targetGameObject.transform.position;
-        }
+       // if (targetGameObject != null)
+        //{
+            //targetPosition = targetGameObject.transform.position;
+        //}
     }
 }
